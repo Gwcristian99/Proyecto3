@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Ini.css">
+</head>
+<body>
+  <div class="form-container">
+    <h1>Iniciar Sesión</h1>
+    <form id="loginForm" method="post" action="juego.html">
+      <div class="username"> <input type="text" id="username" name="username" placeholder="Usuario" required> </div>
+      <div class="password"> <input type="password" id="password" name="password" placeholder="Contraseña" required> </div>
+      <button type="submit">Entrar</button>
+      <div class="recordar"> ¿Olvidé mi contraseña? </div>
+      <div class="registro"> ¿No tienes una cuenta? <a href="registro.html">Regístrate</a> </div>
+      <div id="loginResult"></div>
+    </form>
+  </div> 
+ <script src="Sesion.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #1b1e29; 
+    color: #d3d7e8; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    background-color: #3a5181; 
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(200, 239, 255, 0.5); 
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    gap: 12px;
+    flex-direction: column;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #3a5181; 
+  padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(200, 239, 255, 0.5); 
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    gap: 12px;
+}
+
+h1 {
+    margin-bottom: 25px;
+    font-size: 2rem;
+    color: #b0d1d6; 
+    letter-spacing: 1px;
+    text-shadow: 0px 0px 8px #4e3e3e; 
+}
+
+
+.game-container {
+    margin-bottom: 20px;
+}
+
+
+input {
+    padding: 12px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border: 2px solid #7a5cc0; 
+    border-radius: 8px;
+    width: 120px;
+    font-size: 18px;
+    color: #e8eaf6; 
+    background-color: #2e3245; 
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #dabc9f; 
+    outline: none;
+}
+
+
+button {
+    padding: 12px 25px;
+    background-color: #6d5c87; 
+    color: #e8eaf6; 
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex-direction: column;
+    gap: 12px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+button:hover {
+    background-color: #86d0c1d7; 
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #976464e3; 
+}
+
+
+#history {
+    margin-top: 30px;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: #4c3852c8; 
+    padding: 15px;
+    border: 1px solid #4a424e; 
+    border-radius: 8px;
+    text-align: left;
+    font-size: 0.9rem;
+    color: #e6d1ff; 
+}
+
+.history-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #77707d; 
+    padding-bottom: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.history-item:hover {
+    background-color: #3f445c; 
+}
+
+#history::-webkit-scrollbar {
+    width: 8px;
+}
+
+#history::-webkit-scrollbar-thumb {
+    background-color: #8cf2ff; 
+    border-radius: 4px;
+}
+
+
